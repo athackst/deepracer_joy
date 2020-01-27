@@ -11,7 +11,7 @@ teleop:
       - axis: 1
         target: throttle
         scale: 0.5
-      - axis: 0
+      - axis: 3
         target: angle
         scale: 0.5
   deadman:

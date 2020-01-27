@@ -8,7 +8,7 @@ teleop:
       - axis: 1
         target: throttle
         scale: 0.5
-      - axis: 0
+      - axis: 2
         target: angle
         scale: 0.5
   deadman:
