@@ -10,10 +10,10 @@ teleop:
     axis_mappings:
       - axis: 1
         target: throttle
-        scale: 0.5
+        scale: 1.0
       - axis: 3
         target: angle
-        scale: 0.5
+        scale: 1.0
   deadman:
     type: service
     service_name: /enable_state
