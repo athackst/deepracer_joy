@@ -1,6 +1,6 @@
 # deepracer_joy
 
-This package will allow you to control your deepracer via joystick using ROS.
+This package will allow you to control your DeepRacer via joystick using ROS.
 
 ## Quickstart
 
@@ -33,13 +33,13 @@ sudo apt-get install jstest-gtk
 sudo jstest --normal /dev/input/js0
 ```
 
-> Note: You may need to update the permissions of your device to rw
+> Note: You may need to update the permissions of your device to read/write
 > `sudo chmod a+rw /dev/input/js0`
 
 ### Configure your joystick
 
-I've included an example configuration file that I use with my wired logitech gamepad.
+I've included an example configuration file that I use with my wired Logitech gamepad.
 
 [logitech_dual_action.yaml](config/logitech_dual_action.yaml)
 
-For the DeepRacer you need to both enable the control mode with the rosservice `/enable_state` and you will need to publish your commands to `/manual_drive`.
+For the DeepRacer you need to both enable the control mode with the `/enable_state` rosservice and you will need to publish your commands to `/manual_drive`.
