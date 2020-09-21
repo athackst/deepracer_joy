@@ -1,0 +1,4 @@
+- git:
+    local-name: aws_deepracer_msgs
+    uri: git@github.com:athackst/aws_deepracer_msgs.git
+    version: kinetic
